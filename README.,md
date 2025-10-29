@@ -1,0 +1,37 @@
+# Library Management System (Student Version)
+
+## Problem Statement
+Create a system to manage books and members. Members can borrow and return books. System must track availability.
+library_management/
+│── main.py     # Entry point (menu-driven)
+│── book.py     # Book class
+│── member.py    # Member class
+│── library.py   # Library management class
+│── report.py    # Reporting functions
+│── exceptions.py# Custom exceptions
+│── utils.py     # Helper functions (ID generation, validation)
+│── data/
+│   └── sample_data.json  # Optional starter dataset
+│── README.md             # Student instructions
+
+
+
+## Topics Covered
+- OOP (Book, Member, Library classes)
+- Dictionaries and Lists
+- Exception Handling
+- Reporting
+
+## Step-by-Step Workflow
+1. Implement Book class
+2. Implement Member class
+3. Implement Library class
+4. Implement borrow/return logic
+5. Create reports
+6. Connect everything in main.py
+
+## Student Integration workflow:
+=============================
+StudentA : finishes Book + Member → shared with Student B.
+StudentB : builds Library, utils, exceptions using A’s classes → shared with Student C.
+StudentC : Integrates reports + CLI using A & B’s work.(report.py & main.py)
